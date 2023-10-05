@@ -1,0 +1,15 @@
+program permukaanBola
+
+kamus
+	constant pi : real = 22.0/7.0
+	r : real
+	luas : real
+
+algoritma
+	input(r)
+	luas <- (4.0 * pi* r *r)
+	output(luas)
+
+endprogram	
+	
+
