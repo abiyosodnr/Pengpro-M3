@@ -1,0 +1,4 @@
+program
+kamus
+algoritma
+endprogram
