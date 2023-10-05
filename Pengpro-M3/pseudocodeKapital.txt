@@ -1,0 +1,14 @@
+program kapital
+
+kamus
+	in : string
+	x : char
+	out : boolean
+
+algoritma
+	input(in)
+	x <- in[0]
+	out <- x >= 65 and x <= 90
+	output(out)
+endprogram
+	
