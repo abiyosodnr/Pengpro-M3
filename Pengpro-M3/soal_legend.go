@@ -18,7 +18,12 @@ func main(){
  x4 = nilai / 1 
 
  diskon = (x2 * 10 + x3) % 2 == 0
- cashback = (x1 + x3) % x4 == 0
+ if x4 == 0 {
+   x4 = (x1 + x3) + 1
+ } else {
+   x4 = x4
+ }
+ cashback = ((x1 + x3) % x4 == 0) 
  voucher = (diskon == true && cashback == false) || (diskon == false && cashback == true)
 
  fmt.Println(diskon, cashback, voucher)
