@@ -3,14 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	var a, b, x int
-	var hasil bool
-	fmt.Scan(&a, &b)
+	// var a, b, x int
+	// var hasil bool
+	// fmt.Scan(&a, &b)
 
-	x = a - b
-	hasil = (x%2 != 0)
+	// x = a - b
+	// hasil = (x%2 != 0)
 
-	fmt.Println(hasil)
+	// fmt.Println(hasil)
 
 	//soalNomor1
 
@@ -40,18 +40,17 @@ func main() {
 
 	// // soalNomor3
 
-	// var input string
-	// var x byte
-	// var output bool
+	var in string
+	var x byte
+	var out bool
 
-	// fmt.Println("input data")
-	// fmt.Scan(&input)
+	fmt.Scan(&in)
 
-	// x = input[0]
+	x = in[0]
 
-	// output = x >= 65 && x <= 90
+	out = x >= 65 && x <= 90
 
-	// fmt.Println(output)
+	fmt.Println(out)
 
 	// //soalNomor4
 
