@@ -44,7 +44,6 @@ func main() {
 	var x byte
 	var out bool
 
-	fmt.Println("input data")
 	fmt.Scan(&in)
 
 	x = in[0]
