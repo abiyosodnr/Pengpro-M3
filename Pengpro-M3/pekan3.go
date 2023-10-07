@@ -40,18 +40,18 @@ func main() {
 
 	// // soalNomor3
 
-	// var input string
+	// var in string
 	// var x byte
-	// var output bool
+	// var out bool
 
 	// fmt.Println("input data")
 	// fmt.Scan(&input)
 
-	// x = input[0]
+	// x = in[0]
 
 	// output = x >= 65 && x <= 90
 
-	// fmt.Println(output)
+	// fmt.Println(out)
 
 	// //soalNomor4
 
